@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curve Processing Results</title>
+</head>
+<body>
+    <h1>Processing Results</h1>
+    <h2>Original Curves</h2>
+    <img src="{{ original_plot }}" alt="Original Curves">
+
+    <h2>Regularized Curves</h2>
+    <img src="{{ regularized_plot }}" alt="Regularized Curves">
+
+    <h2>Symmetric Curves with Lines</h2>
+    <img src="{{ symmetry_plot }}" alt="Symmetric Curves">
+
+    <h2>Completed Curves</h2>
+    <img src="{{ completed_plot }}" alt="Completed Curves">
+
+    <h2>Download Processed Data</h2>
+    <a href="/download/{{ output_csv }}">Download CSV</a>
+</body>
+</html>
